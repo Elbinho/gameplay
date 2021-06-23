@@ -15,7 +15,7 @@ export function Home() {
 
     const appointments = [
         {
-            id: 1,
+            id: '1',
             guild: {
                 id: '1',
                 name: "Lendários",
@@ -27,7 +27,7 @@ export function Home() {
             description: 'É hojse que vamos chegar ao challenger sem perder uma partida da md10'
         },
         {
-            id: 2,
+            id: '2',
             guild: {
                 id: '1',
                 name: "Lendários",
@@ -50,7 +50,6 @@ export function Home() {
                 <Profile />
                 <ButtonAdd />
             </View>
-
 
             <CategorySelect
                 categorySelected={category}
